@@ -1,0 +1,69 @@
+/* Common CSS Start */
+
+body {
+	margin: 0;
+	font-family: "Playfair", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+
+/* Common CSS End */
+
+/* Header CSS Start */
+
+header {
+	padding: 60px 0px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+	width: 12%;
+}
+
+.logo a {
+	
+}
+
+.logo a img {
+	width: 100%;
+}
+
+.menu {
+	float: right;
+	width: 75%;
+	align-items: center;
+
+}
+
+.menu ul {
+	float: right;
+	overflow: hidden;
+}
+
+
+.menu ul li {
+	float: left;
+	list-style: none;
+
+}
+
+.menu ul li a {
+	padding: 0px 50px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.menu ul li:last-child a {
+	padding-right: 0px;
+}
+
+/* Header CSS End */
